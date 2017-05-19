@@ -16,6 +16,9 @@
             </intent-filter>
         </activity>
         <service android:name=".MyService"/>
+        <service android:name=".KeepLiveService"
+            android:process=":keepLiveService"
+            />
     </application>
 
 </manifest>
